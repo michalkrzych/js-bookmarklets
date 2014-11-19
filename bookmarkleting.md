@@ -4,6 +4,7 @@ I'm feeling very clever. I've got this sweet line of javascript that replaces "b
 
 A **bookmark** normally takes you to a new web page. A **bookmarklet** is a bookmark that srun javascript on the current page instead of taking you to a new page. To declare that it is a bookmarklet, the "location" it points to starts with `javascript:`.
 
+This guide will walk you through creating your first bookmarklet. For a more thorough guide check out the great website [Bookmarklets - Browser Power](http://subsimple.com/bookmarklets/index.php).
 
 ## Goal
 Take a short javascript script and put it into a bookmarklet.
@@ -91,3 +92,10 @@ When you save a bookmarklet, the browser will remove newlines. If you want to ed
 
 1. Save a copy of the bookmarklet in a text file on your computer (and in github!)
 2. Use a tool like [JSBeautifier](http://jsbeautifier.org/) to make it look nice again. It will put in new lines, indentation, and syntax highlight for you. (but be careful! If you press back in your browser the code is lost. I recommend using this to beautify your code, then that you edit it in a text editor.)
+
+## References & More Resources
+- [Bookmarklets - Browser Power](http://subsimple.com/bookmarklets/index.php) - the most thorough guide I've found
+- [Bit.ly Bookmarklet](https://bitly.com/a/tools)
+  - [short explanation](- https://www.mattcutts.com/blog/javascript-bookmarklet-basics/)
+- [SquareFree Collection of useful Bookmarklets](https://www.squarefree.com/bookmarklets/)
+- [Pocket Bookmarklet](http://help.getpocket.com/customer/portal/articles/483627-using-the-pocket-bookmarklet)
