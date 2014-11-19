@@ -45,8 +45,6 @@ Try just putting `javascript:` in front of it
 javascript:document.body.innerHTML = document.body.innerHTML.replace(/cloud/g, "butt").replace(/Cloud/g, "Butt");
 ```
 
-> You can debug bookmarklets much faster if you use the Location bar - see "Quicker Debugging" below for caveats.
-
 Partway there! The page did SOMETHING but it seemed to refresh and then the CSS/images didn't load! :(
 
 We can get around this by putting this in an [Immediately Invoked Functional Expression](http://en.wikipedia.org/wiki/Immediately-invoked_function_expression). You don't have to understand this completely to be a bookmarkleteer.
