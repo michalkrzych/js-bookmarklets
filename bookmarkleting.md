@@ -48,7 +48,7 @@ javascript:document.body.innerHTML = document.body.innerHTML.replace(/cloud/g, "
 
 Partway there! The page did SOMETHING but it seemed to refresh and then the CSS/images didn't load! :(
 
-We can get around this by putting this in an [Immediately Invoked Functional Expression](http://en.wikipedia.org/wiki/Immediately-invoked_function_expression). You don't have to understand this completely to be a bookmarkleteer.
+We can get around this by putting this in an [Immediately Invoked Functional Expression](http://en.wikipedia.org/wiki/Immediately-invoked_function_expression). You don't have to understand this completely to be a bookmarkleteer. Using an IIFE is one way to avoid having a return value, see [Rules for Bookmarklets (Browser Power](http://subsimple.com/bookmarklets/rules.php) and [Tips - Encapsulation (Browser Power)](http://subsimple.com/bookmarklets/tips.php#Encapsulation).
 
 Here are two example ways to write a standard IIFE:
 ```javascript
