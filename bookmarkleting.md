@@ -1,4 +1,4 @@
-Bookmarklet
+# Making Bookmarklets
 
 I'm feeling very clever. I've got this sweet line of javascript that replaces "butt" with "cloud". My mom would LOVE this but she doesn't computer very well and I'm afraid to show her the Developer Console and have her type/paste this in.
 
