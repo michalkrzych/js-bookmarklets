@@ -4,13 +4,11 @@ I'm feeling very clever. I've got this sweet line of javascript that replaces "b
 
 But she IS pretty good at bookmarks, she knows just how to click those!
 
+Bookmarks normally point to web pages. Bookmarklets are bookmarks that run javascript on the current page instead of taking you to a new page. To declare that it is a bookmarklet, the "location" they point to starts with `javascript:`.
+
+
 ## Goal
 Take a short javascript script and put it into a bookmarklet
-
-## What is a bookmarklet?
-Bookmarks normally point to web pages. Bookmarklets are just bookmarks that run javascript instead of pointing to a web page.
-
-To declare that it is a bookmarklet, they start with `javascript:`
 
 
 ## Try One Out
