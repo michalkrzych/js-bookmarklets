@@ -61,13 +61,13 @@ Here's the general template I always use:
 javascript:(function(){CONTENTGOESHERE})();
 ```
 
-Try it with your cloud to butt code!
+Try it with your cloud to butt code:
 ```
 javascript:(function(){
   document.body.innerHTML = document.body.innerHTML.replace(/cloud/g, "butt").replace(/Cloud/g, "Butt");
 })();
 ```
-
+Success! Now you can cloud-to-butt-ify any page with the click of a button ^_^
 
 
 ## Quicker Debugging
@@ -83,7 +83,6 @@ javascript:(function(){
 > You'll have to retype `javascript:` at the front of what you paste.
 
 The trouble with the location bar is that it strips "javascript:" from the front of whatever you paste. This probably keeps most people safe from copy-pasting code from the internet willy nilly, but you're writing your own. Hopefully you trust yourself :)
-
 
 
 ## Editing bookmarklets
