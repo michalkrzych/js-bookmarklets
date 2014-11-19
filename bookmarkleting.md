@@ -23,8 +23,6 @@ Make a new bookmark in your browser (on the bookmark toolbar)
 javascript:(function(){document.body.style.background = 'pink';})();
 ```
 
-Or just drag this to your bookmarks toolbar: [Pinker](javascript:(function(){document.body.style.background = 'pink';})();)
-
 Navigate to google and click the bookmarklet. Voila!
 
 
