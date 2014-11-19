@@ -4,11 +4,11 @@ I'm feeling very clever. I've got this sweet line of javascript that replaces "b
 
 But she IS pretty good at bookmarks, she knows just how to click those!
 
-Bookmarks normally point to web pages. Bookmarklets are bookmarks that run javascript on the current page instead of taking you to a new page. To declare that it is a bookmarklet, the "location" they point to starts with `javascript:`.
+A **bookmark** normally takes you to a new web page. A **bookmarklet** is a bookmark that srun javascript on the current page instead of taking you to a new page. To declare that it is a bookmarklet, the "location" it points to starts with `javascript:`.
 
 
 ## Goal
-Take a short javascript script and put it into a bookmarklet
+Take a short javascript script and put it into a bookmarklet.
 
 
 ## Try One Out
@@ -45,6 +45,8 @@ Try just putting `javascript:` in front of it
 javascript:document.body.innerHTML = document.body.innerHTML.replace(/cloud/g, "butt").replace(/Cloud/g, "Butt");
 ```
 
+> You can debug bookmarklets much faster if you use the Location bar - see "Quicker Debugging" below for caveats.
+
 Partway there! The page did SOMETHING but it seemed to refresh and then the CSS/images didn't load! :(
 
 We can get around this by putting this in an [Immediately Invoked Functional Expression](http://en.wikipedia.org/wiki/Immediately-invoked_function_expression). You don't have to understand this completely to be a bookmarkleteer.
@@ -61,13 +63,13 @@ Here's the general template I always use:
 javascript:(function(){CONTENTGOESHERE})();
 ```
 
-Try it with your cloud to butt code:
+Try it with your cloud to butt code!
 ```
 javascript:(function(){
   document.body.innerHTML = document.body.innerHTML.replace(/cloud/g, "butt").replace(/Cloud/g, "Butt");
 })();
 ```
-Success! Now you can cloud-to-butt-ify any page with the click of a button ^_^
+
 
 
 ## Quicker Debugging
@@ -83,6 +85,7 @@ javascript:(function(){
 > You'll have to retype `javascript:` at the front of what you paste.
 
 The trouble with the location bar is that it strips "javascript:" from the front of whatever you paste. This probably keeps most people safe from copy-pasting code from the internet willy nilly, but you're writing your own. Hopefully you trust yourself :)
+
 
 
 ## Editing bookmarklets
