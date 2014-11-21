@@ -6,6 +6,8 @@ A **bookmark** normally takes you to a new web page. A **bookmarklet** is a book
 
 This guide will walk you through creating your first bookmarklet. For a more thorough guide check out the great website [Bookmarklets - Browser Power](http://subsimple.com/bookmarklets/index.php).
 
+Some bookmarklets are pretty cool. Become a spaceship that shoots and destroys elements on the webpage you're on with [Kick Ass](http://kickassapp.com/). Or make pages rainbow and sparkly with [Cornify](http://www.cornify.com/).
+
 ## Goal
 Take a short javascript script and put it into a bookmarklet.
 
