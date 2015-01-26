@@ -2,7 +2,7 @@
 
 I'm feeling very clever. I've got this sweet line of javascript that replaces "butt" with "cloud". My mom would LOVE this, but she doesn't computer very well. I'm afraid to show her the Developer Console and have her type/paste this in. But she IS pretty good at bookmarks, she knows just how to click those!
 
-A **bookmark** normally takes you to a new web page. A **bookmarklet** is a bookmark that srun javascript on the current page instead of taking you to a new page. To declare that it is a bookmarklet, the "location" it points to starts with `javascript:`.
+A **bookmark** normally takes you to a new web page. A **bookmarklet** is a bookmark that runs javascript on the current page instead of taking you to a new page. To declare that it is a bookmarklet, the "location" it points to starts with `javascript:`.
 
 This guide will walk you through creating your first bookmarklet. For a more thorough guide check out the great website [Bookmarklets - Browser Power](http://subsimple.com/bookmarklets/index.php).
 
