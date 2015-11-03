@@ -16,13 +16,14 @@ Take a short javascript script and put it into a bookmarklet.
 
 Install this bookmarklet
 
-Make a new bookmark in your browser (on the bookmark toolbar)
+Make a new bookmark in your browser (right-click on the [bookmarks bar](https://support.google.com/chrome/answer/95745?hl=en) and click `Add Page...`)
   - For the "Name" you might put "Pinker".
   - Copy the code block below, paste this into the "Location" of a new bookmark.
 
 ```
 javascript:(function(){document.body.style.background = 'pink';})();
 ```
+
 
 Navigate to google and click the bookmarklet. Voila!
 
