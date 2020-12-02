@@ -1,3 +1,5 @@
+Unrelated update: my book is out! [Debugging Your Brain](www.debuggingyourbrain.com) is an applied psychology / self-help book
+
 # Making Bookmarklets
 
 I'm feeling very clever. I've got this sweet line of javascript that replaces "cloud" with "butt". My mom would LOVE this, but she doesn't computer very well. I'm afraid to show her the Developer Console and have her type/paste this in. But she IS pretty good at bookmarks, she knows just how to click those!
