@@ -1,3 +1,5 @@
+This is one chapter of my "Chrome Extension Workshops" tutorial, see the rest here: https://gist.github.com/caseywatts/8eec8ff974dee9f3b247
+
 Unrelated update: my book is out! [Debugging Your Brain](www.debuggingyourbrain.com) is an applied psychology / self-help book
 
 # Making Bookmarklets
