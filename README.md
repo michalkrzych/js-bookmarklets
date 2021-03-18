@@ -103,6 +103,6 @@ When you save a bookmarklet, the browser will remove newlines. If you want to ed
 ## References & More Resources
 - [Bookmarklets - Browser Power](http://subsimple.com/bookmarklets/index.php) - the most thorough guide I've found
 - [Bit.ly Bookmarklet](https://bitly.com/a/tools)
-  - [short explanation](- https://www.mattcutts.com/blog/javascript-bookmarklet-basics/)
+- [short explanation](https://www.mattcutts.com/blog/javascript-bookmarklet-basics/)
 - [SquareFree Collection of useful Bookmarklets](https://www.squarefree.com/bookmarklets/)
 - [Pocket Bookmarklet](http://help.getpocket.com/customer/portal/articles/483627-using-the-pocket-bookmarklet)
